@@ -1,0 +1,138 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;1,300&display=swap');
+
+body {
+  margin: 0;
+  font-family: 'Ubuntu', sans-serif !important;
+  background-color: #0c1831 !important;
+}
+
+.updateContact-img {
+  width: 250px !important;
+  height: 250px !important;
+  border-radius: 50%;
+}
+
+.circle{
+  border-radius: 1000px;
+}
+
+.navbar-dark {
+  background-color: white !important;
+  color: black !important;
+}
+
+.offersBox {
+  position: absolute;
+  top: 0px;
+  left: 62px;
+  width: 121px;
+  color: white;
+  font-size: 10px;
+  border-radius: 0px 0px 4px 4px;
+}
+
+.subScriptionBox {
+  display: flex;
+  position: relative;
+  flex-direction: row;
+  align-items: center;
+  padding: 16px;
+  gap: 12px;
+  isolation: isolate;
+  height: 65px;
+  background: #D7EDDD;
+  border: 2px solid #47BA68;
+  border-radius: 4px;
+}
+
+.popularBox {
+  display: flex;
+  position: relative;
+  flex-direction: row;
+  align-items: center;
+  padding: 16px;
+  gap: 12px;
+  isolation: isolate;
+  height: 65px;
+  background: #FFFFFF;
+  border: 2px solid #BEBEBE;
+  border-radius: 4px;
+
+}
+
+.expiredBox {
+  display: flex;
+  position: relative;
+  flex-direction: row;
+  align-items: center;
+  padding: 16px;
+  gap: 12px;
+  isolation: isolate;
+  color: #BEBEBE;
+  height: 65px;
+  background: #E7E7E7;
+  border: 2px solid #BEBEBE;
+  border-radius: 4px;
+
+}
+
+.validityBox {
+  box-sizing: border-box;
+  padding: 12px 24px;
+  gap: 4px;
+  height: 76px;
+  background: linear-gradient(135deg, rgba(222, 67, 19, 0.2) 0%, rgba(222, 67, 19, 0.2) 0.75%, rgba(222, 67, 19, 0.2) 2.92%, rgba(222, 68, 20, 0.2) 6.37%, rgba(223, 69, 21, 0.2) 10.97%, rgba(223, 72, 22, 0.2) 16.59%, rgba(224, 75, 24, 0.2) 23.1%, rgba(225, 80, 27, 0.2) 30.37%, rgba(227, 86, 31, 0.2) 38.27%, rgba(229, 94, 36, 0.2) 46.66%, rgba(231, 104, 43, 0.2) 55.41%, rgba(235, 117, 51, 0.2) 64.39%, rgba(238, 132, 60, 0.2) 73.47%, rgba(243, 149, 71, 0.2) 82.52%, rgba(248, 169, 84, 0.2) 91.41%, rgba(254, 193, 99, 0.2) 100%);
+  border-radius: 8px;
+  border: 2px solid #DE4313;
+}
+
+.subScription {
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 120%;
+}
+
+.subScriptionPlan {
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 125.3%;
+}
+
+.monthText {
+  font-weight: 500;
+  font-size: 10px;
+  line-height: 120%;
+  color: #BEBEBE;
+}
+
+.limitedText {
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 120%;
+  color: #DE4313;
+}
+
+.clockImg {
+  width: 25px;
+  height: 25px;
+  color: #DE4313 !important;
+}
+
+.introText {
+  font-weight: 600;
+  font-size: 46px;
+  line-height: 125%;
+}
+
+.amount {
+  font-weight: 600;
+  font-size: 54px;
+  line-height: 125%;
+  /* identical to box height, or 80px */
+
+  letter-spacing: -0.01em;
+}
+
+.border-botttom{
+  border-bottom: 2px solid #BEBEBE !important;
+}
